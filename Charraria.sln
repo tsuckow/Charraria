@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Charraria", "Charraria\Charraria.vcxproj", "{174854EF-28FB-4432-A03E-B932D257D0EE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3D9AD48B-1100-43EC-B2AF-EE37D078180C} = {3D9AD48B-1100-43EC-B2AF-EE37D078180C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "console", "console\console.vcxproj", "{3D9AD48B-1100-43EC-B2AF-EE37D078180C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{174854EF-28FB-4432-A03E-B932D257D0EE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{174854EF-28FB-4432-A03E-B932D257D0EE}.Debug|Win32.Build.0 = Debug|Win32
+		{174854EF-28FB-4432-A03E-B932D257D0EE}.Release|Win32.ActiveCfg = Release|Win32
+		{174854EF-28FB-4432-A03E-B932D257D0EE}.Release|Win32.Build.0 = Release|Win32
+		{3D9AD48B-1100-43EC-B2AF-EE37D078180C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3D9AD48B-1100-43EC-B2AF-EE37D078180C}.Debug|Win32.Build.0 = Debug|Win32
+		{3D9AD48B-1100-43EC-B2AF-EE37D078180C}.Release|Win32.ActiveCfg = Release|Win32
+		{3D9AD48B-1100-43EC-B2AF-EE37D078180C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
